@@ -24,7 +24,7 @@ Paginate --- displays pagination and updates state inside landingPage via callba
 
 ProductCard -- simple product card --> has thumbnail, name, price, msrp and buy button.
 
-Cart and Fotter are simple components. when we click Buy button cart will show the total items in cart as a badge. this is implemented using Redux- state management.
+Cart and Footer are simple components. when we click Buy button cart will show the total items in cart as a badge. this is implemented using Redux- state management.
 
 # cartSlice redux-toolkit
 
