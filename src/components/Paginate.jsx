@@ -4,10 +4,14 @@ import { styled } from "@mui/material/styles";
 
 // Styled button component using regular HTML button
 const PageButton = styled("button")(({ isCurrent }) => ({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
   margin: "0 0.5em",
   borderRadius: "50%",
   width: "25px",
   height: "25px",
+
   backgroundColor: isCurrent ? "#000" : "transparent",
   color: isCurrent ? "#fff" : "#",
   border: "1px solid #000",

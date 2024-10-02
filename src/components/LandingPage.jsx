@@ -90,7 +90,6 @@ const LandingPage = () => {
               borderRadius: "4px",
             }}
           />
-
           <IconButton
             onClick={handleSearchBtn}
             sx={{

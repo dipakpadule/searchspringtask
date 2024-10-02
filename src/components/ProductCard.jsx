@@ -55,13 +55,13 @@ const ProductCard = ({ id, image, name, price, msrp }) => {
             </Typography>
           ) : (
             <Box sx={{ display: "flex", gap: "1em" }}>
-              <s>${price}</s>
+              <s>${msrp}</s>
               <Typography
                 variant="body2"
                 color="text.secondary"
                 sx={{ marginRight: 1, fontSize: "1rem", color: "#26A541" }}
               >
-                ${msrp}
+                ${price}
               </Typography>
             </Box>
           )}
